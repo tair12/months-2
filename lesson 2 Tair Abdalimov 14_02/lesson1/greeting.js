@@ -76,3 +76,120 @@
 //  const filteredTests = tests.filter( test => test.power > 10000 )
 //  console.log( filteredTests)
  
+// const array [
+//    {
+//       username: "jack",
+//       fullname: "Rose"
+//    },
+//    {
+//       username: "jack",
+//       fullname: "Rose"
+//    },
+//    {
+//       username: "jack",
+//       fullname: "Rose"
+//    },
+//    {
+//       username: "jack",
+//       fullname: "Rose"
+//    },
+//    {
+//       username: "jack",
+//       fullname: "Rose"
+//    }
+// ]
+// for(let i = 0; i < array.lengh; i++) {
+//    console.log(array[i])
+// }
+// function getFullName(user, age) {
+//    console.log(user, age)
+// }
+// const blabl ={
+//    first_name: "john",
+//    last_name: "Barbara"
+// }
+// getFullName(blabl, 34);
+// function numbers(number1, number2){
+//    if(number1 > number2){
+//       console.log("ПЕРВОЕ БОЛЬШЕ")
+//    } else if (number1 < number2){
+//       console.log("второе больше")
+//    }else {
+//       console.log(" они равны")
+//    }
+// }
+// const number1 = 13
+// const number2 = 11
+// numbers (343,343)
+
+// function twoMass (arr1, arr2){
+//    console.log(arr1, arr2)
+//    if(arr1.length > arr2.length){
+//       console.log("arr > arr2")
+//    } else if(arr1.length < arr2.length){
+//       console.log("arr < arr2 ")
+//    } else ("arr1.length === arr2")
+// }
+// const arr1 = [132,4, 1,]
+
+// function f(){
+//    for(let n=1; n < 100; n++){
+//       if(n % 15 === 0){
+//          console.log("FizzBuzz")
+//       } else if (n % 5 === 0){
+//          console.log ("Buzz")
+//       } else if(n % 3 === 0){
+//           console.log ("Fizz")
+//       } else {
+//    console.log(n)
+//       }
+//    }
+// }
+// f();
+// function counter(){
+
+//    for( number1 > number2 )
+//    console.log( первое больше)
+//     if(number1 < number2){
+//       console.log(первое менше)
+//     } else if (number1 === number2){
+//        console.log(они равны )
+//     }
+//     return(counter)
+// }
+// const number1 = 0
+// const number2 = 100
+// counter( );
+
+
+  function counter ( ){
+  if (first_namber > last_namber)
+  
+   console.log (first_namber + "> " +  last_namber)
+} else if( first_namber < last_namber){
+   console.log( first_namber + "<" last_namber )
+} else{
+   console.log(first_namber + "=" + last_namber)
+}
+return counter
+
+const first_namber = prompt ( "Введите число")
+const last_namber = prompt ( "Введите   второе число")
+
+const button = document.getElementById("button");
+const input = document.getElementById("input")
+
+
+button.onclick = () => {
+    const div = document.createElement('div')
+    const deLeteButton = document.createElement("button")
+    deLeteButton.innerText = "delete"
+    deLeteButton.onclick = (e) => {
+        console.log(e)
+    }
+    div.setAttribute("class", "block");
+    div.innerText = input.value;
+
+    div.append(deLeteButton)
+    document.body.append(div)
+}
