@@ -162,34 +162,34 @@
 // counter( );
 
 
-  function counter ( ){
-  if (first_namber > last_namber)
+//   function counter ( ){
+//   if (first_namber > last_namber)
   
-   console.log (first_namber + "> " +  last_namber)
-} else if( first_namber < last_namber){
-   console.log( first_namber + "<" last_namber )
-} else{
-   console.log(first_namber + "=" + last_namber)
-}
-return counter
+//    console.log (first_namber + "> " +  last_namber)
+// } else if( first_namber < last_namber){
+//    console.log( first_namber + "<" last_namber )
+// } else{
+//    console.log(first_namber + "=" + last_namber)
+// }
+// return counter
 
-const first_namber = prompt ( "Введите число")
-const last_namber = prompt ( "Введите   второе число")
+// const first_namber = prompt ( "Введите число")
+// const last_namber = prompt ( "Введите   второе число")
 
-const button = document.getElementById("button");
-const input = document.getElementById("input")
+// const button = document.getElementById("button");
+// const input = document.getElementById("input")
 
 
-button.onclick = () => {
-    const div = document.createElement('div')
-    const deLeteButton = document.createElement("button")
-    deLeteButton.innerText = "delete"
-    deLeteButton.onclick = (e) => {
-        console.log(e)
-    }
-    div.setAttribute("class", "block");
-    div.innerText = input.value;
+// button.onclick = () => {
+//     const div = document.createElement('div')
+//     const deLeteButton = document.createElement("button")
+//     deLeteButton.innerText = "delete"
+//     deLeteButton.onclick = (e) => {
+//         console.log(e)
+//     }
+//     div.setAttribute("class", "block");
+//     div.innerText = input.value;
 
-    div.append(deLeteButton)
-    document.body.append(div)
-}
+//     div.append(deLeteButton)
+//     document.body.append(div)
+// }

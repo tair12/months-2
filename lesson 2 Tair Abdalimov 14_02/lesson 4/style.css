@@ -1,0 +1,17 @@
+.counter {
+   padding-top: 100px;
+   margin: 0 490px;
+   display: flex;
+   color: aqua;
+
+ }
+ .minus{
+    background-color: blueviolet;
+    color:black
+ }
+ .plus{
+    background-color: brown;
+ }
+ .number{
+    background-color: rgb(70, 150, 101);
+ }
